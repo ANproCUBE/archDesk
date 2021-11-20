@@ -29,10 +29,10 @@ done
 
 export PATH=$PATH:~/.local/bin
 cp -r $HOME/ArchDesktop/dotfiles/* $HOME/.config/
-pip install konsave
-konsave -i $HOME/ArchDesktop/kde.knsv
-sleep 1
-konsave -a kde
+#pip install konsave
+#konsave -i $HOME/ArchDesktop/kde.knsv
+#sleep 1
+#konsave -a kde
 
 echo -e "\nDone!\n"
 exit
