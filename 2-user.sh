@@ -35,7 +35,6 @@ PKGS=(
 'ttf-hack'
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
-'zoom' # video conferences
 'snap-pac'
 )
 
