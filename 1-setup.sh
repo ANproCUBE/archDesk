@@ -47,12 +47,17 @@ PKGS=(
 'bind'
 'binutils'
 'bison'
+'bluedevil'
+'bluez'
+'bluez-libs'
+'bluez-utils'
 'breeze'
 'breeze-gtk'
 'bridge-utils'
 'btrfs-progs'
 'celluloid' # video players
 'cmatrix'
+'code' # Visual Studio code
 'cronie'
 'cups'
 'dialog'
@@ -69,6 +74,7 @@ PKGS=(
 'fuse2'
 'fuse3'
 'fuseiso'
+'gamemode'
 'gcc'
 'gimp' # Photo editing
 'git'
@@ -92,6 +98,7 @@ PKGS=(
 'kinfocenter'
 'kscreen'
 'kvantum-qt5'
+'kitty'
 'konsole'
 'kscreen'
 'layer-shell-qt'
@@ -136,8 +143,11 @@ PKGS=(
 'python-pip'
 'qemu'
 'rsync'
+'sddm'
+'sddm-kcm'
 'snapper'
 'spectacle'
+'steam'
 'sudo'
 'swtpm'
 'synergy'
@@ -160,6 +170,9 @@ PKGS=(
 'xdg-user-dirs'
 'zeroconf-ioslave'
 'zip'
+'zsh'
+'zsh-syntax-highlighting'
+'zsh-autosuggestions'
 )
 
 for PKG in "${PKGS[@]}"; do
